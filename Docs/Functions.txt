@@ -1,3 +1,5 @@
+Functions in Mathfuncs 0.0.1
+
 sum()
   Enter sum() and pass as many integer or floating point arguments you would like. This function will sum them up.
 sub()
