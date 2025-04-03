@@ -1,5 +1,3 @@
-import math
-
 """ The addition function. You can take any number of arguments and add them. """
 def sum(*args):
     result = 0
@@ -28,5 +26,13 @@ def div(*args):
 
     for i in args[1:]:
        number = number / i
-    return number 
+    return number
 
+""" The factorial function. Takes a positive integer and gives it's facorial (!). """
+def factorial(n):
+    n1 = 1
+    for i in range(n):
+        if i > 0:
+            n1 = n1 * i
+    n1 = n1 * n
+    return n1
