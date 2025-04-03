@@ -1,0 +1,10 @@
+sum()
+  Enter sum() and pass as many integer or floating point arguments you would like. This function will sum them up.
+sub()
+  Enter sub() and pass as many integer or floating point arguments you would like. This function will subtract them in the order you put them.
+mul()
+  Enter mul() and pass as many integer or floating point arguments you would like. This function will multiply them in the order you put them.
+div()
+  Enter div() and pass as many integer or floating point arguments you would like. This function will divide them in the order you put them.
+factorial()
+  Enter factorial() and pass 1 integer argument. This function will give you its factorial (!).
