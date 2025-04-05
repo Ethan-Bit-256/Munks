@@ -10,3 +10,5 @@ div()
   Enter div() and pass as many integer or floating point arguments you would like. This function will divide them in the order you put them.
 factorial()
   Enter factorial() and pass 1 integer argument. This function will give you its factorial (!).
+combination()
+  Enter combination() and pass 2 integer arguments (n, r). This function will give you the combination of n and r (nCr).

@@ -36,3 +36,14 @@ def factorial(n):
             n1 = n1 * i
     n1 = n1 * n
     return n1
+
+""" The combination function. Takes to arguments (n & r) and gives their combination (nCr). """
+def  combination(n, r):
+    facn = factorial(n)                      # facn means "factorial of n"
+    nminr = n - r                            # nminr means "n minus r"
+    facnminr = factorial(nminr)              # facnminr means "factorial of the result of n minus r"
+    facr = factorial(r)                      # facr means "factorial of r"
+    denominator = facr * facnminr            # denominator is what we'll be dividing facn by in order to get the result
+    result = facn / denominator
+
+    return int(result)
