@@ -1,2 +1,2 @@
-# mathfuncs.py
-A 1-file library of some python mathematical functions
+# Munks
+A library of some python mathematical functions
