@@ -1,4 +1,4 @@
-from mathfuncs import *
+from munks import *
 
 print(f"1 + 2.2 + 3.33 = {sum(1, 2.2, 3.33)}")
 print(f"10 - 5 - 3.5 = {sub(10, 5, 3.5)}")

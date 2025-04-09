@@ -1,4 +1,4 @@
-Functions in Mathfuncs 0.0.1
+Functions in Munks 0.2.0
 
 sum()
   Enter sum() and pass as many integer or floating point arguments you would like. This function will sum them up.
