@@ -12,3 +12,5 @@ factorial()
   Enter factorial() and pass 1 integer argument. This function will give you its factorial (!).
 combination()
   Enter combination() and pass 2 integer arguments (n, r). This function will give you the combination of n and r (nCr).
+permutation()
+  Enter permutation() and pass 2 integer arguments (n, r). This function will give you the permutation of n and r (nPr).

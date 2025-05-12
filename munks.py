@@ -41,7 +41,7 @@ def factorial(n):
     n1 = n1 * n
     return n1
 
-""" The combination function. Takes to arguments (n & r) and gives their combination (nCr). """
+""" The combination function. Takes two arguments (n & r) and gives their combination (nCr). """
 def  combination(n, r):
     facn = factorial(n)                      # facn means "factorial of n"
     nminr = n - r                            # nminr means "n minus r"
@@ -52,5 +52,9 @@ def  combination(n, r):
 
     return int(result)
 
-def isprime(n):
-    return n
+""" The permutation function. Takes two arguments (n & r) and gives their permutation (nPr). """
+def permutation(n, r):
+    facn = factorial(n)                  # facn means "factorial of n"
+    facnminr = factorial(n - r)          # facnminr means "factorial of n minus r"
+    result = int(facn / facnminr)        # the final result
+    return result
