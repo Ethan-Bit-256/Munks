@@ -1,5 +1,5 @@
 """
-   Munks 0.2.0
+   Munks 0.0.2
 """
 
 """ The addition function. You can take any number of arguments and add them. """
