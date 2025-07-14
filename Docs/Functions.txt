@@ -2,11 +2,11 @@ Functions in Munks 0.2.0
 
 sum()
   Enter sum() and pass as many integer or floating point arguments you would like. This function will sum them up.
-sub()
+subtraction()
   Enter sub() and pass as many integer or floating point arguments you would like. This function will subtract them in the order you put them.
-mul()
+multiplication()
   Enter mul() and pass as many integer or floating point arguments you would like. This function will multiply them in the order you put them.
-div()
+division()
   Enter div() and pass as many integer or floating point arguments you would like. This function will divide them in the order you put them.
 factorial()
   Enter factorial() and pass 1 integer argument. This function will give you its factorial (!).
@@ -14,3 +14,5 @@ combination()
   Enter combination() and pass 2 integer arguments (n, r). This function will give you the combination of n and r (nCr).
 permutation()
   Enter permutation() and pass 2 integer arguments (n, r). This function will give you the permutation of n and r (nPr).
+inverse()
+  Enter inverse() and pass 1 argument (it can be an integer or a float). This function will give you its inverse (-1).

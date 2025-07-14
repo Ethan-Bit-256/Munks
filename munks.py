@@ -58,3 +58,9 @@ def permutation(n, r):
     facnminr = factorial(n - r)          # facnminr means "factorial of n minus r"
     result = int(facn / facnminr)        # the final result
     return result
+
+""" The inverse function. Takes one argument (number x), and gives its inverse (x-1). """
+def inverse(x):
+    result = 1/x
+    return result
+
