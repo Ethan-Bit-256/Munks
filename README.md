@@ -1,2 +1,2 @@
 # Munks
-A library of some python mathematical functions
+A python library of some mathematical functions
