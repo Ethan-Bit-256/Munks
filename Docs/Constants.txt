@@ -1,4 +1,4 @@
-Constants in Munks 0.0.3
+Constants in Munks 0.0.2
 
 "pi" gives pi to 15 decimals of accuracy
 "eul" gives euler's number to 15 decimals of accuracy
