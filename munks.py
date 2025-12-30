@@ -2,6 +2,10 @@
    Munks 0.0.2
 """
 
+""" Some mathematical constants """
+pi = 3.141592653589793      # Pi (15 decimal places)
+eul = 2.718281828459045     # Euler's Number (15 decimal places)
+
 """ The addition function. You can take any number of arguments and add them. """
 def sum(*args):
     result = 0
@@ -63,4 +67,5 @@ def permutation(n, r):
 def inverse(x):
     result = 1/x
     return result
+
 
