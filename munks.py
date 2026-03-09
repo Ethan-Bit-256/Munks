@@ -1,5 +1,5 @@
 """
-   Munks 0.0.2
+   Munks 0.1.0
 """
 
 """ Some mathematical constants """
@@ -68,4 +68,16 @@ def inverse(x):
     result = 1/x
     return result
 
+""" The mean function. Enter as many numbers as you like and it'll give you the average. """
+def mean(*args):
+    total = 0             # *args summed up
+    count = 0             # the number of arguments passed
+
+    for i in args:        # going through the passed arguments
+        total+=i          # adding up the arguments
+        count+=1          # finding out the number of arguments passed
+
+    result = total/count  # calculating the average
+
+    return result         # returning the average of *args
 

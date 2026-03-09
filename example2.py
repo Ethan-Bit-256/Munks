@@ -1,4 +1,4 @@
-""" This demstrates the constants in Munks """
+""" This demonstrates the constants in Munks """
 
 from munks import *
 
