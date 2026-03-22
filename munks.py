@@ -1,6 +1,9 @@
 """
-   Munks 0.1.0
+   Munks 0.2.0
 """
+
+""" Required Import """
+from math import *
 
 """ Some mathematical constants """
 pi = 3.141592653589793      # Pi (15 decimal places)
@@ -68,7 +71,7 @@ def inverse(x):
     result = 1/x
     return result
 
-""" The mean function. Enter as many numbers as you like and it'll give you the average. """
+""" The mean function. Enter as many arguments as you like and it'll give you the average. """
 def mean(*args):
     total = 0             # *args summed up
     count = 0             # the number of arguments passed
@@ -80,4 +83,31 @@ def mean(*args):
     result = total/count  # calculating the average
 
     return result         # returning the average of *args
+
+""" The variance function. Enter as many arguments as you like and it'll return their variance. """
+def variance(*args):
+    count = 0                      # Number of values
+    values = []                    # Here, we'll store the values in args after they've each been squared
+
+    avg = mean(*args)              # Mean of args
+    avgsq = avg*avg                # Squaring the mean
+
+    for i in args:
+
+        currentvar = i*i           # Squaring each value in args
+        values.append(currentvar)  # Adding the squared values to the list of squared values
+
+        count+=1                   # Counting the number of values in args
+
+    sum_of_xsq = sum(*values)      # Summing our squared values to be used in the equation(xsq stands for "x squared")
+
+    part1 = sum_of_xsq/count       # The quotient of sum_of_xsq and the number of values
+
+    result = part1 - avgsq         # Our final result which we get by subtracting the square of our average from part1.
+
+    return result
+
+""" The standard deviation function. Enter as many arguments as you like and it'll return their standard deviation. I appreciate how easy this function was to write. """
+def std_deviation(*args):
+    return sqrt(variance(*args))   # Standard deviation is just the square root of variance.
 

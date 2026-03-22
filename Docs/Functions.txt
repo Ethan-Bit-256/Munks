@@ -1,4 +1,4 @@
-Functions in Munks 0.1.0
+Functions in Munks 0.2.0
 
 sum()
   Enter sum() and pass as many integer or floating point arguments you would like. This function will sum them up.
@@ -26,3 +26,9 @@ inverse()
 
 mean()
   Enter mean() and pass as many arguments as you like (integer, float, negative, or positive). This function will give you their average.
+
+variance()
+  Enter variance() and pass as many arguments as you like (integer, float, negative, or positive). This function will return their variance.
+
+std_deviation()
+  Enter std_deviation() and pass as many arguments as you like (integer, float, negative, or positive). This function will return their standard deviation.
